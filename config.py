@@ -1,5 +1,8 @@
 API_TOKEN = '1165047770:AAG6IuC4wEXsnxqPZlQO1Z-eq1x5xIaWe68'
 
+base_path='/home/alex1/my_bot1/base.db'
+
+
 TIME_PARSING=300
 
 LIMIT_LAST_BASE_COUNT=200

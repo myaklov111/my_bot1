@@ -1,6 +1,7 @@
 import sqlite3
 from datetime import datetime
 import pytz
+import config
 
 __connection = None
 
@@ -10,7 +11,7 @@ def get_connection():
     try:
 
         if __connection is None:
-            __connection = sqlite3.connect("base.db",check_same_thread=False)
+            __connection = sqlite3.connect(config.base_path,check_same_thread=False)
         return __connection
     except:
         return None
